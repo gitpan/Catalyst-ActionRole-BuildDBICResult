@@ -28,4 +28,4 @@ requires:
   MooseX::Types: 0.23
   Perl6::Junction: 1.40000
   Try::Tiny: 0.06
-version: 0.02
+version: 0.03
