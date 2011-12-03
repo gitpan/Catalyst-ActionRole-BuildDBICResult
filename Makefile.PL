@@ -15,11 +15,12 @@ requires (
     'Try::Tiny' => '0.06',
 );
 
-build_requires (
+test_requires (
     'Test::More' => '0.94',
     'DBIx::Class' => '0.08123',
     'Catalyst::Runtime' => '5.80025',
     'Catalyst::Model::DBIC::Schema' => '0.43',
+    'DBD::SQLite' => '1.35',
 );
 
 all_from 'lib/Catalyst/ActionRole/BuildDBICResult.pm';

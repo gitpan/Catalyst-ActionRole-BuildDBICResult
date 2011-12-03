@@ -1,5 +1,10 @@
 This file contains Change history for Catalyst-ActionRole-BuildDBICResult
 
+0.04  03 December 2011
+    * Bump up the test requirements for DBD::SQLite since my tests are designed
+      around how the new DBD::SQLite enoughes number type binds.
+    * A minor update to docs
+
 0.03  01 December 2011
     * I forgot to checkin the note mentioned in the previous changes notes :(
 

@@ -5,6 +5,7 @@ author:
 build_requires:
   Catalyst::Model::DBIC::Schema: 0.43
   Catalyst::Runtime: 5.80025
+  DBD::SQLite: 1.35
   DBIx::Class: 0.08123
   ExtUtils::MakeMaker: 6.36
   Test::More: 0.94
@@ -33,4 +34,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jjn1056/Catalyst-ActionRole-BuildDBICResult.git
-version: 0.03
+version: 0.04

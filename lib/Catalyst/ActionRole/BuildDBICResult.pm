@@ -1,6 +1,6 @@
 package Catalyst::ActionRole::BuildDBICResult;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Moose::Role;
 use namespace::autoclean;
@@ -922,6 +922,12 @@ to a single argument in a controller "Args(1)".  If you fail to defined a
 find_condition this is the default we use.
 
 Please see L</FIND CONDITIONS DETAILS> for more examples.
+
+<B>NOTE:</B> The feature that allows more than a single find condition per
+action binding is now considered ill advised, since having a lookup across
+columns of different types can result in database bind type errors.  We could
+probably solve this issue by performing some sanity tests on the conditions
+using the available column meta-data; test cases and patch very welcomed!
 
 =head2 auto_stash
 

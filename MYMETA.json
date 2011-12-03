@@ -24,6 +24,7 @@
          "requires" : {
             "Catalyst::Model::DBIC::Schema" : "0.43",
             "Catalyst::Runtime" : "5.80025",
+            "DBD::SQLite" : "1.35",
             "DBIx::Class" : "0.08123",
             "ExtUtils::MakeMaker" : "6.36",
             "Test::More" : "0.94"
@@ -37,14 +38,18 @@
       "runtime" : {
          "requires" : {
             "Catalyst::Controller::ActionRole" : "0.15",
+            "Catalyst::Model::DBIC::Schema" : "0.43",
             "Catalyst::Runtime" : "5.80025",
+            "DBD::SQLite" : "1.35",
+            "DBIx::Class" : "0.08123",
             "Moose" : "1.10",
             "MooseX::Types" : "0.23",
             "Perl6::Junction" : "1.40000",
+            "Test::More" : "0.94",
             "Try::Tiny" : "0.06"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.03"
+   "version" : "0.04"
 }
